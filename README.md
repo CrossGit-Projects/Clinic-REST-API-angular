@@ -1,13 +1,13 @@
 **Aplikacja składa się z serwisów – warstwa serwerowa**
 
-Eureka
-Gateway
-Authorization Service
-UserService(Postgresql - lokalnie)
-VisitService(Postgresql - lokalnie)
-Pdf generation service
-Notification service
-RabbitMQ
+- Eureka
+- Gateway
+- Authorization Service
+- UserService(Postgresql - lokalnie)
+- VisitService(Postgresql - lokalnie)
+- Pdf generation service
+- Notification service
+- RabbitMQ
 
 
 **Frontend**
