@@ -28,10 +28,13 @@ Pacjent
 
 **Visit-Service**
 
-Dodawanie godzin przyjęć(Doktor),
-Potwierdzenie wizyty(Doktor),
-Zapis na wizytę(Pacjent),
-Wystawienie diagnozy(Doktor)
+- Dodawanie godzin przyjęć(Doktor),
+- Potwierdzenie wizyty(Doktor),
+- Zapis na wizytę(Pacjent),
+- Przypisywanie pacjenta do wizyty,
+- Dodawanie leków do bazy danych,
+- Przepisywanie leków pacjentowi,
+- Generowanie rachunku za wizytę,
 
 **Pdf-generation-service**
 Generowanie E-rachunków.
@@ -39,7 +42,7 @@ Generowanie E-rachunków.
 
 **Notification-service**
 
-Wysyłanie maili informujących do użytkowników.
+Wysyłanie maili informujących do użytkowników, poprzez odbieranie z kolejki RabbitMQ.
 
 **RabbitMQ**
 Wysyłanie wiadomości na RabbitMQ podczas rejestracji pacjenta(user-service),
@@ -47,6 +50,6 @@ Pobieranie wiadomości z RabbitMQ (notification-service).
 
 
 **Patients App(Angular)**
-Rejestracja użytkownika,
-Wyświetlanie listy użytkowników,
-Zapisywanie pacjenta na wizytę.
+- Rejestracja użytkownika,
+- Wyświetlanie listy użytkowników,
+- Zapisywanie pacjenta na wizytę.
