@@ -36,7 +36,7 @@ Pacjent
 - Przepisywanie leków pacjentowi,
 - Generowanie rachunku za wizytę,
 
-**Pdf-generation-service**
+**Pdf-generation (visit-service)**
 Generowanie E-rachunków.
 
 
