@@ -1,8 +1,8 @@
 **Aplikacja składa się z serwisów – warstwa serwerowa**
 
 - Eureka
-- Gateway
-- Authorization Service
+- Gateway(Zuul)
+- Authorization Service(Oauth2 oraz JWT)
 - UserService(Postgresql - lokalnie)
 - VisitService(Postgresql - lokalnie)
 - Pdf generation service
@@ -34,7 +34,7 @@ Zapis na wizytę(Pacjent),
 Wystawienie diagnozy(Doktor)
 
 **Pdf-generation-service**
-Generowanie E-recepty.
+Generowanie E-rachunków.
 
 
 **Notification-service**
